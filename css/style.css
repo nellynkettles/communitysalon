@@ -53,9 +53,8 @@ h4 {
   font-size:20px;
 }
 
-h6 {
-  font-family: "FreightTextPro-Regular"
-  font-size: 18px;
+h5 {
+  font-family: "MillimetreRegular"
 }
 
 
@@ -109,7 +108,6 @@ color: white;
 }
 
 .header {
-border: 2px solid red;
 padding-left: 20%;
 padding-right: 20%;
 padding-top: 50%;
@@ -153,7 +151,6 @@ line-height: 1.3;
 padding-left: 20%;
 padding-right: 20%;
 position:relative;
-border: 2px solid red;
 }
 
 .thirdworld {
@@ -177,7 +174,6 @@ font-size: 18px;
 .section-two {
 position:relative;
 text-align: center;
-border: 2px solid red;
 }
 
 .landback {
@@ -230,7 +226,6 @@ width: 20%;
 padding-left: 20%;
 padding-right: 20%;
 position:relative;
-border: 2px solid red;
 background-image: url("../image/build-bg.png");
 background-repeat: no-repeat;
 background-size: cover;
@@ -239,7 +234,7 @@ background-size: cover;
 .blackwhite {
 color: white;
 background-color: black;
-font-family: "FreightTextPro-Italic"
+font-family: "MillimetreRegular"
 
 }
 
@@ -415,7 +410,6 @@ height: auto;
   padding-top: 5%;
   padding-bottom: 5%;
   position:relative;
-  border: 2px solid red;
 background-color: black;
 
 }
@@ -481,6 +475,251 @@ top: 69.7%;
 }
 
 
+/* -------------- LEARN--------------- */
+
+.sections-five {
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 10px;
+padding-bottom: 10px;
+position:relative;
+background-color: black;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+}
+
+/* -- button 1--*/
+
+.bookone {
+position: relative;
+float: left;
+left: 8%;
+}
+
+.bookonebase {
+display: block;
+height: auto;
+
+}
+
+.bookonehover {
+  position: relative;
+   top: 15.2px;
+   bottom: 0;
+   left: 107.4%;
+   right: 0;
+   opacity: 0;
+   transition: .5s ease;
+
+}
+
+.bookonereveal{
+  position: absolute;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  right: -5%;
+}
+
+.bookone:hover .bookonehover {
+  opacity: 1;
+}
+
+/* -- button 2--*/
+
+.booktwo {
+position: relative;
+float: left;
+}
+
+.booktwobase {
+display: block;
+height: auto;
+
+}
+
+.booktwohover {
+  position: relative;
+   top: 5px;
+   bottom: 0;
+   left: 95%;
+   right: 0;
+   opacity: 0;
+   transition: .5s ease;
+
+}
+
+.booktworeveal{
+  position: absolute;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  right: -5%;
+}
+
+.booktwo:hover .booktwohover {
+  opacity: 1;
+}
+
+/* -- button 3--*/
+
+.bookthree {
+position: relative;
+float: left;
+}
+
+.bookthreebase {
+display: block;
+height: auto;
+
+}
+
+.bookthreehover {
+  position: relative;
+   top: 2.8px;
+   bottom: 0;
+   left: 92.5%;
+   right: 0;
+   opacity: 0;
+   transition: .5s ease;
+
+}
+
+.bookthreereveal{
+  position: absolute;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  right: -5%;
+}
+
+.bookthree:hover .bookthreehover {
+  opacity: 1;
+}
+
+/* -- button 4--*/
+
+.bookfour {
+position: relative;
+float: left;
+left: 8%
+}
+
+.bookfourbase {
+display: block;
+height: auto;
+
+}
+
+.bookfourhover {
+  position: relative;
+   top: 15.2px;
+   bottom: 0;
+   left: 107.5%;
+   right: 0;
+   opacity: 0;
+   transition: .5s ease;
+
+}
+
+.bookfourreveal{
+  position: absolute;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  right: -5%;
+}
+
+.bookfour:hover .bookfourhover {
+  opacity: 1;
+}
+
+/* -- button 5--*/
+.bookfive {
+position: relative;
+float: left;
+}
+
+.bookfivebase {
+display: block;
+height: auto;
+
+}
+
+.bookfivehover {
+  position: relative;
+   top: 15.2px;
+   bottom: 0;
+   left: 107.5%;
+   right: 0;
+   opacity: 0;
+   transition: .5s ease;
+
+}
+
+.bookfivereveal{
+  position: absolute;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  right: -5%;
+}
+
+.bookfive:hover .bookfivehover {
+  opacity: 1;
+}
+
+
+.greenbook {
+  position: absolute;
+  color: #00A95C;
+  top: 73.5%;
+  left: 65%;
+  text-align: center;
+}
+
+.exclaim {
+  padding-right: 45%;
+}
+
+/* -------------- CONCLUSION--------------- */
+
+.sections-six {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position:relative;
+
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
 
 /* Mobile
 -------------------------------------------------- */
